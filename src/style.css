@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+html, body, #root, .App{
+    height: 100%;
+}
+.App{
+    padding: 0 4em;
+}
+.title{
+    text-align: center;
+    padding: 2em;
+    font-size: 2em;
+    background-color: cyan;
+    border-radius: 20;
+    border: 10px solid white;
+}
+.kanban{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    background-color: lightcyan;
+}
